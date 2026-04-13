@@ -12,19 +12,21 @@ The HR director is reviewing how different departments perform not only in outpu
 Business question:
 How do departments compare in terms of average employee performance, engagement, and work–life balance among active employees?
 
-Scenario 3 – Training investment impact
+Scenario 3 – Training effectiveness across programs
 
-The company invests a significant budget in employee training programs and wants to evaluate whether this investment is linked to better employee outcomes.
+The Learning and Development team wants to understand which training programs are associated with better employee outcomes in order to prioritize future investments.
 
-Business question:
-Do employees who have participated in training programs show higher engagement and performance than employees who have not participated in any training?
+Business question
 
-Scenario 4 – Recruitment pipeline demand over time
+How do employee engagement and performance differ across training programs and training outcomes?
 
-The talent acquisition team is planning future hiring campaigns and needs to understand how applicant demand changes throughout the year for different roles.
+Scenario 4 – Role demand distribution
 
-Business question:
-How does the volume of job applications change over time for each job title?
+The talent acquisition team wants to understand which roles currently attract the most applicants in order to prioritize recruitment resources.
+
+Business question
+
+How does applicant volume compare across job titles?
 
 Scenario 5 – Hiring outcome distribution by role
 
