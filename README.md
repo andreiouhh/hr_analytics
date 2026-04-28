@@ -1,50 +1,52 @@
-Scenario 1 – Workforce performance segmentation
+HR Strategic Insights Dashboard
+A Data-Driven Approach to Workforce Management and Training ROI
 
-Management wants to understand how the current active workforce is distributed by performance level and hiring period in order to guide retention and leadership development strategies.
+Project Background
+This is a personal project developed during my Information Technology internship to demonstrate the application of data analytics in a Human Resources context. Utilizing an HR dataset from Kaggle, I built an end-to-end analytical system to address organizational challenges including turnover, pay equity, and the effectiveness of training programs.
+Technical Stack
+Database Management: PostgreSQL was used for data storage, cleaning, and creating a relational structure.
 
-Business question:
-How are active employees distributed across performance tiers and hiring cohorts (legacy vs. newer hires)?
+Data Visualization: Microsoft Power BI was employed to design the interactive dashboard and user interface.
 
-Scenario 2 – Department effectiveness and employee experience
+Business Logic: Custom DAX measures were developed to calculate key metrics such as turnover, tenure, and training investment.
 
-The HR director is reviewing how different departments perform not only in output, but also in employee experience and well-being.
+Dashboard Structure
+Page 1: Workforce Overview and Retention
+This page focuses on the operational "pulse" of the company and current headcount stability.
 
-Business question:
-How do departments compare in terms of average employee performance, engagement, and work–life balance among active employees?
+Operational KPIs: Monitors total headcount (3,000), active employees (2,458), and inactive employees (542).
 
-Scenario 3 – Training effectiveness across programs
+Stability Metrics: Tracks a company-wide Turnover Rate of 18.07% and an Average Tenure of 3.33 years.
 
-The Learning and Development team wants to understand which training programs are associated with better employee outcomes in order to prioritize future investments.
+Workforce Composition: Visualizes gender balance across departments and provides a breakdown of employment status and marital status distributions.
 
-Business question
+Performance Distribution: Segments employees by performance tiers, ranging from "Standard" to "Elite".
 
-How do employee engagement and performance differ across training programs and training outcomes?
+Page 2: Growth, Equity and Training ROI
+This page focuses on the long-term development of talent and the financial fairness of the organization.
 
-Scenario 4 – Role demand distribution
+Investment Metrics: Displays a Total Training Spend of $1.68M alongside an Average Engagement score of 2.94.
 
-The talent acquisition team wants to understand which roles currently attract the most applicants in order to prioritize recruitment resources.
+Pay Equity Analysis: Examines pay distribution by gender across multiple pay zones (A, B, and C) to identify potential compensation gaps.
 
-Business question
+Hiring Cohorts: Compares performance tiers between "Legacy" and "New Era" hiring periods to analyze talent longevity.
 
-How does applicant volume compare across job titles?
+Program Effectiveness: Correlates training program participation with performance ratings and engagement outcomes through scatter plot and bar chart analysis.
 
-Scenario 5 – Hiring outcome distribution by role
+Core Analytical Objectives
+Retention Analysis: Identifying organizational turnover trends to inform stability strategies.
 
-Recruitment managers want to evaluate whether certain roles experience bottlenecks or low success rates in the hiring process.
+Compensation Fairness: Ensuring equitable pay distribution across different demographics and business units.
 
-Business question:
-How are application outcomes (for example: hired, rejected, in progress) distributed across job titles?
+Training ROI: Measuring the relationship between financial investment in learning and actual employee performance outcomes.
 
-Scenario 6 – Department retention risk
+Experience Benchmarking: Comparing departmental effectiveness by plotting performance against well-being and engagement scores.
 
-Executive leadership is concerned about rising employee turnover and wants to identify organizational areas that may require immediate intervention.
+Files in this Repository
+hr_dashboard.pbix: The source Power BI file containing all data models, visuals, and DAX measures.
 
-Business question:
-Which departments have the highest employee attrition rates?
+schema.sql: The SQL script defining the database structure, tables, and relational constraints.
 
-Scenario 7 – Training strategy optimization
+queries.sql: The PostgreSQL scripts used for data cleaning, transformation, and investigation.
 
-The learning and development team is reviewing which training programs deliver the strongest results and where to prioritize future training budgets.
-
-Business question:
-Which training programs are associated with the strongest employee engagement and performance outcomes?
+hr_dashboard.pdf: A static PDF export of the two-page dashboard for quick reference.
